@@ -542,10 +542,57 @@
 // countVowels("Hello");
 
 
+// let Array = ["Santosh", "Sharmila", "Sandeep", "Hello", "World"];
+// Array.forEach(function printVal(val){  //val = value at each index
+// console.log(val.toLowerCase());   
+// })
+
+// Array.forEach((val)=>{
+//     console.log(val.toUpperCase());
+// });
 
 
+// let array = [2, 3, 4, 5, 6];
+// array.forEach(function printSquare(val){   // you can pass val index array, 3 parameters inside the forEach method
+//     console.log(val * val);
+// })
+// array.forEach((val) =>{
+//     console.log(val * val);
+// })
 
 
+//forEach
+//arr.forEach (callBackFunction)
+//a call back is a function passed as an arguement
+
+//map method//foreach is used for simple calculations, whereas map is used to create new array//
+// let nums = [1, 2, 3, 4, 5, 6];
+// let newArray = nums.map((val) =>{
+//    return val * 2; 
+// })
+// console.log(newArray);
+
+//filter method//
+// let nums = [1, 2, 3, 4, 5, 6, 7];
+// let newNums = nums.filter((val) => {
+//     return val % 2;
+// });
+// console.log(newNums);
+
+// let nums = [1, 2, 3, 4, 5, 6, 7];
+// let newOne = nums.filter((val)=>{
+// return val > 4;
+// });
+// console.log(newOne);
+
+
+//reduce
+//performs some operations and reduces the array to a single value. It returns that single value
+let nums = [1, 2, 3, 4, 5, 6, 7];
+const outPut = nums.reduce((res, curr) =>{
+ return  res + curr 
+})
+console.log(outPut);
 
 // const changeElement = document.getElementById('title'); (try)
 // changeElement.innerHTML = "Hello this is Artificial intelligence";
