@@ -588,14 +588,58 @@
 
 //reduce
 //performs some operations and reduces the array to a single value. It returns that single value
-let nums = [1, 2, 3, 4, 5, 6, 7];
-const outPut = nums.reduce((res, curr) =>{
- return  res + curr 
-})
-console.log(outPut);
+// let nums = [1, 2, 3, 4, 5, 101, 6, 7];
+// const outPut = nums.reduce((prev, curr) =>{
+//  return  prev < curr ? prev : curr;
+// })
+// console.log(outPut);
 
-// const changeElement = document.getElementById('title'); (try)
+// practice
+// let marks = [87, 88, 90, 95, 100, 101, 65, 32, 69];
+// let result = marks.filter((val) => {
+//     return val > 90;
+// });
+// console.log(result);
+
+// let userInput = parseInt(prompt("Enter a number"));
+// let number = [];
+// for(let i=1; i<=userInput; i++){
+//     number[i-1]=i;
+// }
+// console.log(number);
+
+// practice
+
+// let array = [2, 4, 6, 8, 10, 12]
+// let result =array.reduce((prev, curr)=>{
+//     return prev * curr;
+// })
+// console.log(result);
+
+
+
+
+
+//DOM manipulation
+// const changeElement = document.getElementById('title');
 // changeElement.innerHTML = "Hello this is Artificial intelligence";
+
+// const changeHeading = document.getElementById('title');
+// changeHeading.innerText = 'Vegetables';
+
+
+// const changeElement = document.querySelector('h2');
+// changeElement.innerText = 'From Nepal'
+
+// let changeTheName = document.getElementsByClassName('box');
+// let idx = 1;
+// for(div of changeTheName){
+//     div.innerText = `new unique value ${idx}`;
+//     idx++;
+// }
+
+// DOM PART 2
+
 
 
 
