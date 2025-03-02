@@ -640,8 +640,12 @@
 
 // DOM PART 2
 
+// let divs = document.querySelector("div");
+// console.log(divs);
+// let id = divs.getAttribute("id")
 
-
+let para = document.querySelector("div");
+para.getAttribute("class");
 
 
 
