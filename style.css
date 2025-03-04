@@ -27,10 +27,20 @@ button:active{
     color: white
 } */
 
-#box{
-    height: 100px;
+/* #box{
+    height: 150px;
     width: 100px;
     background-color: #cf0606;
     margin: 5px;
     text-align: center;
+}
+p{
+    color: black;
+} */
+
+.content{
+    color: red;
+}
+.newclass{
+    background-color: green;
 }

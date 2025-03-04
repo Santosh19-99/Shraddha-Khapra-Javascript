@@ -644,8 +644,49 @@
 // console.log(divs);
 // let id = divs.getAttribute("id")
 
-let para = document.querySelector("div");
+// let para = document.querySelector("p");
+// console.log(para.setAttribute("class", "newClass"));
+
+
+// let div =  document.querySelector("div");
+// div.style.backgroundColor = "Green";
+// div.style.fontSize = "26px";
+// div.innerText = "Margaye kya, Bhosadike"
+// div.style.width = "200px";
+
+//insert element//
+// let newBtn = document.createElement("button");//creates a button
+// newBtn.innerText = ("Click here") //inserts the texts inside the button
+// console.log(newBtn);
+
+// let div = document.querySelector("div");
+// div.append(newBtn);  //to add an element(here button) at the end
+
+// div.prepend(newBtn); //to add ban element(here button) at the top 
+
+// div.before(newBtn) //on the top of the whole element(here right on the top of the div box), outside the div
+// div.after(newBtn) //at the end of the whole element(here end of the div box, outside the div
+
+// let newHeading = document.createElement("h1");
+// newHeading.innerHTML = "<i>Hi, i am new</i>";
+// document.querySelector("body").prepend(newHeading)
+
+// let para = document.getElementById("para");
+// para.remove();
+
+// let's practice
+// let oneButton = document.createElement("button");
+// oneButton.innerText = "Click Me";
+// oneButton.style.color = "white"
+// oneButton.style.backgroundColor = "red"
+
+// document.querySelector("body").prepend(oneButton);
+
+// 2
+let para = document.querySelector("p");
 para.getAttribute("class");
+para.classList.add("newClass");
+
 
 
 
